@@ -11,7 +11,7 @@ body {
     background-color: hsl(0, 0%, 8%);
 }
 
-.container {
+main {
     width: 80%;
     max-width: 300px;
     position: absolute;
@@ -59,21 +59,26 @@ ul {
 }
 
 li {
-    color: white;
     font-size: 0.8rem;
     font-weight: 700;
     text-align: center;
-    padding: 0.8em;
     margin-top: 1em;
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
 }
 
 li:hover {
-    color: black;
     background-color: hsl(75, 94%, 57%);
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 0.8em 0;
+}
+
+a:hover {
+    color: black;
 }
